@@ -40,7 +40,7 @@ function openSignup() {
 function sendMoney() {
   let history = document.getElementById('history-list');
   let newTransaction = document.createElement('li');
-  newTransaction.innerText = 'Sent $100 to another user';
+  newTransaction.innerText = 'Sent #100 to another user';
   history.appendChild(newTransaction);
   alert('Money sent successfully!');
 }
